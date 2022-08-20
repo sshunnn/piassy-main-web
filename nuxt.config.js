@@ -12,6 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
+      { rel: 'stylesheet', href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
