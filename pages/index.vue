@@ -1,6 +1,7 @@
 <template>
   <div>
     <img v-bind:src="image_src" />
+    <h1>aaaaaaa</h1>
   </div>
 </template>
 
