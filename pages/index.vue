@@ -1,9 +1,21 @@
 <template>
-  <img src="~/assets/image/mainlogo.svg" />
+  <div>
+    <img v-bind:src="image_src" />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "IndexPage",
+  data() {
+    return {
+      image_src: "mainlogo.svg",
+    };
+  },
 };
 </script>
+<style>
+img {
+  display: block;
+  margin: 15% auto;
+}
+</style>

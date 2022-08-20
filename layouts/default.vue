@@ -1,4 +1,6 @@
 <template>
-  <pcHeader />
+  <div>
+    <pcHeader />
+    <nuxt />
+  </div>
 </template>
-<script></script>
